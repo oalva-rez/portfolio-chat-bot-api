@@ -17,9 +17,12 @@ router.post("/chat", async (req, res, next) => {
                 uid: uid,
                 messages: [],
                 tokens: 0,
+                me:
+                    req.ip === "::1" || req.ip === process.env.MY_IP
+                        ? true
+                        : false,
             });
         }
-
         // Add user message to conversation history
         if (!userInput || userInput.trim() === "" || userInput.length > 150) {
             res.status(400).json({ message: "Invalid user input", data: null });
