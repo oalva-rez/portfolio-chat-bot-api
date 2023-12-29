@@ -12,12 +12,14 @@ The backend is built using Node.js and serves as the crucial link between the Op
 * **Rate Limiting Middleware:** Implements robust rate limiting to ensure the application's stability and security *(**note:** this component is not included in the repository for security reasons)*.
 * **MongoDB Connection:** Connects to a MongoDB instance to store non-identifying chat history, aiding in maintaining a contextual and coherent chat experience.
 
-## Open Chat Button
+## Screenshots
+
+### Open Chat Button
 <p align="center">
   <img src="./img/cb1.png" alt="open chat button" width="438">
 </p>
 
-## Chatbot Response
+### Chatbot Response
 
 <p align="center">
 <img src="./img/demo.gif"
