@@ -62,7 +62,7 @@ Before setting up the Portfolio Chatbot Backend, ensure that your system meets t
 * Inside middleware, create a `rateLimiter.js` file and implement your rate-limiting logic.
 
 4. **Training Data for OpenAI Model**:
-   * The `training_data.json` file, which contains the data used for fine-tuning the OpenAI model, is not included. Create this file with your custom training data.
+* The `training_data.json` file, which contains the data used for fine-tuning the OpenAI model, is not included. Create this file with your custom training data.
 
 ### Running the Application
 
